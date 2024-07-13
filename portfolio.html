@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChanchalAnand</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .card:hover {
+            background-color: #cbc7d3 !important;
+            color: #fff;
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: auto;
+            max-height: 150px;
+            /* Adjust this to your preferred max height */
+            object-fit: contain;
+        }
+
+        .info {
+            box-shadow: 0 0 40px rgba(104, 103, 103, 0.1);
+
+        }
+
+        .navbar-brand img {
+            height: 40px;
+            width: auto;
+        }
+
+        .navbar-nav .nav-link {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .navbar-nav .nav-item {
+            margin: 0 10px;
+        }
+
+        body {
+            padding-top: 70px;
+            /* Adjust based on the navbar height */
+        }
+
+        .header {
+            padding: 50px 0;
+        }
+
+        .img-holder img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .widget {
+            margin-top: 20px;
+        }
+
+        .widget-item {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .subtitle {
+            color: rgb(155, 151, 151);
+        }
+
+        .title {
+            color: rgb(94, 92, 92);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/image.png" alt="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center text-md">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header bg-light" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <div class="img-holder">
+                        <img src="assets/tech.png" alt="tech" />
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="infos">
+                        <h3 class="subtitle display-3 font-weight-normal">hello, I'm</h3>
+                        <h1 class="title display-4 font-weight-bold">Chanchal Anand</h1>
+                        <h3 class="text-lg subtitle ">web developer || ui/ux || java developer || passionate
+                            coder</h3>
+                        <div class="buttons pt-3 mt-4 flex-column">
+                            <a class="btn btn-info rounded " href="#"> DOWNLOAD CV</a>
+
+
+
+                            <a href="https://www.linkedin.com/" target="_blank" class="btn rounded">
+                                <i class="bi bi-linkedin text-info" style="font-size: 2rem;"></i>
+                            </a>
+
+
+                            <a href="https://github.com/" target="_blank" class="btn rounded">
+                                <i class="bi bi-github text-info" style="font-size: 2rem;"></i>
+                            </a>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="container text-center  mt-3">
+        <div class="d-flex align-items-center  ">
+            <div class="flex-grow-1 border border-bottom border-2 "></div>
+            <div class="mx-3  border border-dark px-5 py-3 rounded  border-3">
+                <ul class="list-unstyled d-flex">
+                    <li class="mr-3">12 <br> projects</li>
+                    <li class="mr-3">200+ <br> linkedIn <br />connects</li>
+                </ul>
+            </div>
+            <div class="flex-grow-1 border border-bottom border-2"></div>
+        </div>
+    </div>
+
+    <div id="about" class="container bg-light mt-3">
+        <div class="row">
+            <div class="col-md-3 mb-4 text-center">
+                <img src="assets/anand.png" class="img-fluid custom-img image-cover " alt="Chanchal Anand">
+            </div>
+            <div class="col-md-9">
+                <h2 class="title"><i class="bi bi-person-fill mr-2"></i>Chanchal Anand</h2>
+                <h4 class="subtitle"><i class="bi bi-book-fill mr-2 title"></i>B.Tech., Computer Science and Engineering
+                </h4>
+                <h4 class="subtitle"><i class="bi bi-house-door-fill mr-2 title"></i>Institute of Technical Education
+                    and
+                    Research, Bhubaneshwar</h4>
+                <p class="info border rounded p-4">
+                    He is passionate about coding and full stack development, having excelled in hackathons and
+                    industry-level projects. A
+                    trained badminton player 🏸, he competes in tournaments, showcasing dedication and discipline.
+                    Beyond tech, he enjoys
+                    painting 🎨, dancing 💃, and writing ✍️. His multifaceted experiences reflect a well-rounded
+                    individual committed to
+                    personal and professional growth, balancing technical challenges with artistic and athletic
+                    achievements.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="skills" class="container mt-5 bg-light">
+        <div class="d-flex justify-content-center align-items-center flex-column ">
+            <div class="text-center">
+                <h2 class="title display-3 font-weight-bold">
+                    <img src="assets/skill.png" class="img-fluid"
+                        style="width: 60px; height: auto; margin-right: 10px;" />Skills
+                </h2>
+                <h3 class="subtitle">Jack Of All Traits.</h3>
+            </div>
+        </div>
+
+
+        <h3 class="title text-center mt-4 mb-4">What I Do?</h3>
+        <div class="container text-center title">
+            <div class="row justify-content-center">
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4 d-flex">
+                    <div class="card border border-dark shadow w-100 d-flex flex-column">
+                        <img src="assets/webdev.avif" class="card-img-top img-fluid p-2" style="max-height: 100%;"
+                            alt="Web Design">
+                        <div class="card-body d-flex flex-grow-1">
+                            <h4 class="card-text align-self-center">Web Design</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4 d-flex">
+                    <div class="card border border-dark shadow w-100 d-flex flex-column">
+                        <img src="assets/Wavy_Spt-05_Single-05.jpg" class="card-img-top img-fluid p-2"
+                            style="max-height: 100%;" alt="Badminton">
+                        <div class="card-body d-flex flex-grow-1">
+                            <h4 class="card-text align-self-center">Badminton</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4 d-flex">
+                    <div class="card border border-dark shadow w-100 d-flex flex-column">
+                        <img src="assets/painting.avif" class="card-img-top img-fluid p-2" style="max-height: 100%;"
+                            alt="Painting">
+                        <div class="card-body d-flex flex-grow-1">
+                            <h4 class="card-text align-self-center">Painting</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4 d-flex">
+                    <div class="card border border-dark shadow w-100 d-flex flex-column">
+                        <img src="assets/dancing.avif" class="card-img-top img-fluid p-2" style="max-height: 100%;"
+                            alt="Dancing">
+                        <div class="card-body d-flex flex-grow-1">
+                            <h4 class="card-text align-self-center">Dancing</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="d-flex align-items-center mb-3 mt-4">
+            <img src="assets/react.png" class="image-cover img-fluid" style="width: 40px; height: auto;" />
+            <div class="progress flex-grow-1" style="height: 2px; margin-left: 40px;">
+                <div class="progress-bar bg-info" style="width: 80%; height: 100%;"></div>
+            </div>
+
+        </div>
+        <div class="d-flex align-items-center mb-3">
+            <img src="assets/java.png" class="image-cover img-fluid" style="width: 40px; height: auto;" />
+            <div class="progress flex-grow-1" style="height: 2px; margin-left: 40px;">
+                <div class="progress-bar bg-info" style="width: 95%; height: 100%;"></div>
+            </div>
+
+        </div>
+        <div class="d-flex align-items-center mb-3">
+            <img src="assets/html-5.png" class="image-cover img-fluid" style="width: 40px; height: auto;" />
+            <div class="progress flex-grow-1" style="height: 2px; margin-left: 40px;">
+                <div class="progress-bar bg-info" style="width: 90%; height: 100%;"></div>
+            </div>
+
+        </div>
+        <div class="d-flex align-items-center mb-3">
+            <img src="assets/mysql.png" class="image-cover img-fluid" style="width: 40px; height: auto;" />
+            <div class="progress flex-grow-1" style="height: 2px; margin-left: 40px;">
+                <div class="progress-bar bg-info" style="width: 85%; height: 100%;"></div>
+            </div>
+
+        </div>
+        <div class="d-flex align-items-center mb-3">
+            <img src="assets/git.png" class="image-cover img-fluid" style="width: 40px; height: auto;" />
+            <div class="progress flex-grow-1" style="height: 2px; margin-left: 40px;">
+                <div class="progress-bar bg-info" style="width: 75%; height: 100%;"></div>
+            </div>
+
+        </div>
+
+        <div class="subtitle text-center display-4 mb-4">Other Skills</div>
+
+        <div class="container text-center">
+            <div class="row justify-content-center">
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="card border border-dark shadow">
+                        <img src="assets/css-3.png" class="card-img-top img-fluid p-2" style="max-height: 70px;"
+                            alt="CSS">
+                        <div class="card-body">
+                            <p class="card-text">CSS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="card border border-dark shadow">
+                        <img src="assets/database.png" class="card-img-top img-fluid p-2" style="max-height: 70px;"
+                            alt="Oracle">
+                        <div class="card-body">
+                            <p class="card-text">Oracle</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="card border border-dark shadow">
+                        <img src="assets/letter-r.png" class="card-img-top img-fluid p-2" style="max-height: 70px;"
+                            alt="R">
+                        <div class="card-body">
+                            <p class="card-text">R</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="card border border-dark shadow">
+                        <img src="assets/linux.png" class="card-img-top img-fluid p-2" style="max-height: 70px;"
+                            alt="Linux">
+                        <div class="card-body">
+                            <p class="card-text">Linux</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="card border border-dark shadow">
+                        <img src="assets/bootstrap.png" class="card-img-top img-fluid p-2" style="max-height: 70px;"
+                            alt="Bootstrap">
+                        <div class="card-body">
+                            <p class="card-text">Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div id="projects">
+        <div class="d-flex justify-content-center align-items-center flex-column mt-3 mb-3 ">
+            <div class="text-center">
+                <h2 class="title display-4 font-weight-bold">
+                    <img src="assets/projects.avif" class="img-fluid"
+                        style="width: 100px; height: auto; margin-right: 10px;" />Projects
+                </h2>
+
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 d-flex align-items-stretch">
+                    <div class="card border border-dark shadow w-100">
+                        <img src="assets/krishi.jpg" class="card-img-top img-fluid p-2" style="max-height: 200px;"
+                            alt="Krishi Sahayta">
+                        <div class="card-body d-flex flex-column">
+                            <p class="card-text mb-2">
+                            <h5 class="ml-4">Description:</h5>
+                            "Krishi Sahayta" is a web application that provides a comprehensive solution for crop
+                            insurance
+                            settlement, catering to both farmers and insurance companies. It aims to prevent false
+                            claims and
+                            expedite the insurance settlement process.
+                            </p>
+                            <p class="card-text">
+                            <h5 class="ml-4">Tools:</h5>
+                            Java, Bootstrap, HTML, MySQL, AI/ML
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 d-flex align-items-stretch">
+                    <div class="card border border-dark shadow w-100">
+                        <img src="assets/misarticlulation.png" class="card-img-top img-fluid p-2"
+                            style="max-height: 200px;" alt="Awaaz">
+                        <div class="card-body d-flex flex-column">
+                            <p class="card-text mb-2">
+                            <h5 class="ml-4">Description:</h5>
+                            "Awaaz" aims to provide a comprehensive solution for misarticulation correction through
+                            gamification, continuous training, and examination.
+                            </p>
+                            <p class="card-text">
+                            <h5 class="ml-4">Tools:</h5>
+                            React js, MongoDB, AI/ML
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 d-flex align-items-stretch">
+                    <div class="card border border-dark shadow w-100">
+                        <img src="assets/krishsarthi.png" class="card-img-top img-fluid p-2" style="max-height: 200px;"
+                            alt="Farmer Management System">
+                        <div class="card-body d-flex flex-column">
+                            <p class="card-text mb-2">
+                            <h5 class="ml-4">Description:</h5>
+                            The Farmer Management System for Adyaksh and farmers enables Adyaksh to maintain information
+                            related
+                            to farmers while allowing farmers to view their entire information. This system eliminates
+                            the need
+                            for manual data recording.
+                            </p>
+                            <p class="card-text">
+                            <h5 class="ml-4">Tools:</h5>
+                            Java, Bootstrap, HTML, MySQL
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="title  font-weight-bold mt-4 p-5">Practice Projects</h2>
+        <div class="container mt-2">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>ToDo Track (Todo list)</span>
+                    <a href="https://github.com/anand-242/TodoTrack" class="btn btn-outline-primary btn-sm">View
+                        Project</a>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>Student Tracker (Java Full Stack)</span>
+                    <a href="https://github.com/anand-242/Student_track" class="btn btn-outline-primary btn-sm">View
+                        Project</a>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>Encryption Algorithms (Java)</span>
+                    <a href="https://github.com/anand-242/Ciphering_Algorithms"
+                        class="btn btn-outline-primary btn-sm">View Project</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="container mt-5 text-center bg-light">
+        <div class="mb-4">
+            <p>&copy; 2024 chanchalanand All rights reserved. <i class="far fa-smile"></i></p>
+            <p>You can contact me through <a href="https://www.linkedin.com/">LinkedIn</a>. <i
+                    class="far fa-thumbs-up"></i>
+                Thank you for visiting! <i class="far fa-smile"></i></p>
+        </div>
+    </div>
+</body>
+
+</html>
